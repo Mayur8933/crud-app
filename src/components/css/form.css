@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+*{
+    font-family: 'Sigmar One', cursive;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+}
+.right-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    padding: 5px;
+    margin: 10px;
+    max-width: 80%;
+}
+
+
+/* records */
+
+.table-head{
+    background-color: #FCD34D;
+    color: white;
+    height: 50px;
+}
+
+.head{
+    width: fit-content;
+}
+
+.info{
+    background-color: #E5E7EB;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.sr-no{
+    width: 60px;
+    height: 40px;
+}
+
+.th{
+    width: 150px;
+}
+
+.email{
+    width: 400px;
+}
+
+tr:nth-child(even) {
+    background-color: #F3F4F6;
+}
+
+.over{
+    overflow-x: auto;
+}
+
+@media screen and (max-width: 1440px) {    
+    .container2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .over{
+        table-layout: auto;
+        width: 400px;
+        margin-left:10px;
+    }
+
+    .navigation{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .over{
+        table-layout: auto;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .over{
+        table-layout: auto;
+    }
+  
+}
+
+
+.pad-right{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.red{
+    color:red;
+}
+
+.blue{
+    color: blue;
+}
+
+.green{
+    color: green;
+}
+
+.icon{
+    width:20px;
+    height: 20px;
+}
+
+.white{
+    color: white;
+    text-decoration: none;
+}
+
+/* view */
+
+.view{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin-top: '50px'
+}
+
+.list{
+    list-style-type: none;
+}
+
+.mar{
+    margin-top: 130px;
+}
+
+@media screen and (max-width: 500px) {
+  .mar{
+      margin-top: 70px;
+  }
+}
+
+@media screen and (width: 320px){
+    .view{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px
+     }
+
+     .navigation{
+        padding: 1rem 1rem;
+         width: 100%;
+     }
+}
