@@ -4,20 +4,24 @@
     font-family: 'Sigmar One', cursive;
 }
 
+:root{
+    --color-primary : #FCD34D;
+}
+
 .container{
-    width: 300px;
-    height: 300px;
+    width: 20rem;
+    height: 20rem;
     background-color:white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    box-shadow: #FCD34D 0px 0px 0px 3px;
+    border-radius: 1.6rem;
+    box-shadow: var(--color-primary) 0px 0px 0px 3px;
     flex-direction: column;
 }
 
 .btn{
-    background-color: #FCD34D;
+    background-color: var(--color-primary);
     border: 0px;
     border-radius: 5px;
     height: 35px;
@@ -36,9 +40,10 @@
 
 .img-section{
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 120px;
+    justify-content: center;
+    margin-top: 7rem;
+   
 }
 
 @media screen and (max-width: 1440px) {
@@ -58,7 +63,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 1.5rem;
     padding: 10px;
 }
 }
@@ -68,7 +73,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 0.5rem;
         padding: 10px;
     }
 }

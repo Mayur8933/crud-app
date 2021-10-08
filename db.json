@@ -1,16 +1,22 @@
 {
   "students": [
     {
-      "name": "Mayur",
+      "name": "Mayur patil",
       "email": "mayurpatil1902@gmail.com",
-      "phone": "07767969076",
+      "phone": "7767969076",
       "id": 2
     },
     {
-      "name": "test1",
-      "email": "test1@gmail.com",
-      "phone": "1212-121-1267",
-      "id": 3
+      "name": "dummy_user",
+      "email": "dummyy-user2@gmail.com",
+      "phone": "13213-13131-13123",
+      "id": 4
+    },
+    {
+      "name": "nilesh",
+      "email": "nileshpatil1902@gmail.com",
+      "phone": "7767969076",
+      "id": 5
     }
   ]
 }

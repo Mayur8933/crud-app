@@ -27,7 +27,7 @@ const View = () => {
     return (
         <div>
             <Header />
-            <div className='view'>
+            <div style={{marginLeft:'2.5rem'}} className='view'>
                 <table className='mar'>
                 <h1 style={{ textAlign: 'center'}}>User Id : {id}</h1>
                     <tr>

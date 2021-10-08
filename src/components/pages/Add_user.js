@@ -30,11 +30,11 @@ const Add_user = () => {
     return (
         <div>
             <div>
-                <nav className="navigation">
+                <nav style={{width:'100vw'}} className="navigation">
                     <div className="nav-brand">
-                    CRUD APP
+                    <a style={{color:'white'}} className='text-deco' href='/'> CRUD APP </a>
                     </div>
-                    <ul className="list-non-bullet nav-pills">
+                    <ul style={{paddingRight:'2rem'}} className="list-non-bullet nav-pills">
                         <li className="list-item-inline">
                             <a className="link .link-weight" href="/">Home</a>
                         </li>
@@ -56,7 +56,7 @@ const Add_user = () => {
                             <input value={user.phone} name='phone' className='input' placeholder='Phone' onChange={e => onInputChange(e)} ></input>
 
                             <button type='submit' className='btn'>ADD</button>
-                            <ToastContainer limit={1} closeButton={false} />
+                            <ToastContainer limit={1} closeButton={true} />
                         </form>
                     </div>
                 </div>

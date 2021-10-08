@@ -23,7 +23,7 @@ const EditUser = () => {
     const onSubmit = async e => {
         e.preventDefault();
         await axios.put(`http://localhost:3333/students/${id}`, user)
-        return toast("Added", { type: 'success' })
+        return toast("Saved", { type: 'success' })
     }
 
     useEffect(()=>{
@@ -38,11 +38,11 @@ const EditUser = () => {
     return (
         <div>
             <div>
-                <nav className="navigation">
+                <nav style={{width:'100vw'}} className="navigation">
                     <div className="nav-brand">
                     CRUD APP
                     </div>
-                    <ul className="list-non-bullet nav-pills">
+                    <ul style={{paddingRight:'2rem'}} className="list-non-bullet nav-pills">
                         <li className="list-item-inline">
                             <Link className='white' to='/'>Home</Link>
                         </li>
@@ -64,7 +64,7 @@ const EditUser = () => {
                             <input value={user.phone} name='phone' className='input' placeholder='Phone' onChange={e => onInputChange(e)} ></input>
 
                             <button type='submit' className='btn'>ADD</button>
-                            <ToastContainer limit={1} closeButton={false} />
+                            <ToastContainer limit={1} closeButton={true} />
                         </form>
                     </div>
                 </div>

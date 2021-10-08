@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
 :root{
-    --primary-color:#FCD34D;
+    --primary-color: #FCD34D;
     --grey-color:#6B7280;
     --off-white:#E5E7EB;
 }
@@ -60,7 +60,7 @@ body {
 /** navigation**/
 
 .navigation{
-    background-color: var(--primary-color);
+    background: var(--primary-color);
     color:white;
     padding: 1rem;
 }
@@ -108,7 +108,7 @@ body {
 }
 
 .heading-inverted{
-    color:var(--primary-color)
+    color:var(--primary-color);
 }
 
 /** section **/
@@ -125,10 +125,13 @@ body {
     background-color: var(--off-white);
 }
 
+.size{
+    font-size: 1rem;
+}
 /** footer **/
 
 footer{
-    background-color: var(--primary-color);
+    background: var(--primary-color);
     padding: 1rem 1rem;
     text-align: center;
     color: white;

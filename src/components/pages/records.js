@@ -27,7 +27,7 @@ const Records = () => {
             <div>
                 <nav className="navigation">
                     <div className="nav-brand">
-                        CRUD APP
+                    <a style={{color:'white'}} className='text-deco' href='/'> CRUD APP </a>
                     </div>
                     <ul className="list-non-bullet nav-pills">
                         <li className="list-item-inline">
